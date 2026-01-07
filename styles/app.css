@@ -326,6 +326,54 @@ body {
   width: 100%;
 }
 
+/* Start Main */
+.main {
+  padding: 5rem 0;
+}
+
+.works {
+  text-align: center;
+}
+
+.works__text {
+  color: #6c7890;
+
+  margin-bottom: 0rem;
+}
+
+.works__title {
+  color: #081d43;
+
+  margin-top: 0.8rem;
+}
+
+.works-content {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: space-around;
+}
+.works_content__item {
+}
+
+.works-content__title {
+  color: #081d43;
+}
+
+.works-content__text {
+  line-height: 2rem;
+  max-width: 16rem;
+}
+
+.works-img {
+  max-width: 31rem;
+  margin: 0 auto;
+}
+
+.works-img__image {
+  width: 100%;
+}
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
