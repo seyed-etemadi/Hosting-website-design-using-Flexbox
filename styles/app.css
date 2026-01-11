@@ -271,7 +271,7 @@ body {
 /* Header Bottom */
 
 .headerbottom {
-  margin-top: 6rem;
+  margin-top: 5.5rem;
 }
 
 .header-content {
@@ -327,8 +327,9 @@ body {
 }
 
 /* Start Main */
+
 .main {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
 .works {
@@ -343,6 +344,8 @@ body {
 
 .works__title {
   color: #081d43;
+  font-family: "TTNorms Medium";
+  font-weight: normal;
 
   margin-top: 0.8rem;
 }
@@ -372,6 +375,77 @@ body {
 
 .works-img__image {
   width: 100%;
+}
+
+/* Person-Comments Section */
+
+.person_comments {
+  background-color: #2f5bea;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
+}
+.persion_comments__title {
+  font-family: "TTNorms Medium";
+  font-weight: normal;
+}
+.persion_comments__text {
+  font-family: "TTNorms Light";
+}
+.comments-container {
+  max-width: 65rem;
+  margin: 3.5rem auto 0 auto;
+}
+.comments {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.comment {
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 18rem;
+  flex-basis: 20rem;
+}
+.comment__content {
+  padding: 1.2rem;
+  text-align: left;
+}
+.comment__body {
+  font-family: "Times Roman Italic";
+  color: #7e8085;
+  line-height: 1.5rem;
+  margin: 0;
+}
+.comment__info {
+  display: flex;
+  border-top: 1px solid #e8ebef;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+}
+.comment__img {
+}
+.comment__person {
+  color: #000;
+  margin: 0 0 0 0.5rem;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.companies__img {
+  display: block;
+  margin: 1rem;
 }
 
 /* Project Responsive */
