@@ -264,7 +264,7 @@ body {
   background-color: #0050c8;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   color: #fff;
 }
 
@@ -282,13 +282,13 @@ body {
 .header-content__left {
   flex-basis: 50%;
 }
-.header-cintent__wrapper {
+.header-content__wrapper {
   max-width: 28rem;
 }
 
 .header-content__links {
   display: flex;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .header-content__right {
@@ -310,7 +310,7 @@ body {
   background-color: #0050c8;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   color: #fff;
   display: block;
   width: 10rem;
@@ -329,11 +329,12 @@ body {
 /* Start Main */
 
 .main {
-  padding: 6rem 0;
+  padding-top: 3rem;
 }
 
 .works {
   text-align: center;
+  padding: 5rem 0;
 }
 
 .works__text,
@@ -341,12 +342,14 @@ body {
   color: #6c7890;
   margin-bottom: 0rem;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .works__title,
 .protfolio__title {
   color: #081d43;
   font-family: "TTNorms Medium";
+  font-size: 1.8rem;
   font-weight: normal;
   margin-top: 0.8rem;
 }
@@ -381,18 +384,22 @@ body {
 /* Person-Comments Section */
 
 .person_comments {
-  margin-top: 2rem;
   background-color: #2f5bea;
   text-align: center;
   color: #fff;
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 .persion_comments__title {
   font-family: "TTNorms Medium";
+  font-size: 1.8rem;
   font-weight: normal;
+  margin-top: 0;
 }
 .persion_comments__text {
   font-family: "TTNorms Light";
+  max-width: 28rem;
+  margin: 0 auto;
+  line-height: 1.8rem;
 }
 .comments-container {
   max-width: 65rem;
@@ -407,7 +414,7 @@ body {
 .comment {
   background-color: #fff;
   margin: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -454,8 +461,7 @@ body {
 
 .protfolio {
   text-align: center;
-
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 .protfolio-items {
   display: flex;
@@ -466,18 +472,20 @@ body {
 .protfolio__item {
   flex-basis: 23rem;
   margin-top: 2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   overflow: hidden;
 }
 .protfolio__img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Start Footer */
 
 .newsletter {
   background-color: #2c57e4;
-  padding: 4.5rem 0;
+  padding: 6rem 0;
   color: #fff;
 }
 .newslatter__wrapper {
@@ -490,13 +498,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 20rem;
-  padding: 0.4rem 0.4rem 0.4rem 1.5rem;
-  border-radius: 0.5rem;
+  flex-basis: 22rem;
+  padding: 0.3rem 0.3rem 0.3rem 1.5rem;
+  border-radius: 0.3rem;
 }
 
 .newslatter__text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: normal;
 }
 
 .newslatter__txt {
@@ -511,7 +520,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 }
 
 .copy-right {
