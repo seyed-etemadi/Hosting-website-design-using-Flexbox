@@ -471,6 +471,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 5rem;
+  flex-wrap: wrap;
 }
 
 .companies__img {
@@ -610,6 +611,20 @@ body {
     flex-basis: 16rem;
     flex-shrink: 0;
   }
+
+  .comments {
+    flex-wrap: wrap;
+  }
+
+  .comment {
+    flex-basis: 19rem;
+  }
+
+  .companies {
+    justify-content: center;
+    margin-top: 2.5rem;
+    /* flex-direction: column; */
+  }
 }
 @media only screen and (max-width: 768px) {
   .container {
@@ -648,6 +663,11 @@ body {
     flex-shrink: 0;
     margin-bottom: 1.5rem;
   }
+
+  .comment {
+    margin: 0 0 1.5rem 0;
+    flex-basis: 15rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -661,5 +681,9 @@ body {
   .works-content__text {
     flex-basis: 100%;
     margin: 0 auto;
+  }
+
+  .comment {
+    flex-basis: 100%;
   }
 }
