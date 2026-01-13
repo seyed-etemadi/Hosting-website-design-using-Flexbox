@@ -543,6 +543,7 @@ body {
 .newsletter__txt {
   border: none;
   outline: none;
+  width: 100%;
 }
 
 .newsletter__btn {
@@ -725,6 +726,10 @@ body {
     .newsletter__text {
     flex-basis: auto;
     margin-bottom: 2rem;
+  }
+
+  .newsletter__btn{
+    padding: 1rem 1.2rem;
   }
 }
 }
