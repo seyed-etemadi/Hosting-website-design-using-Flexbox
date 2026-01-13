@@ -724,6 +724,7 @@ body {
   }
     .newsletter__text {
     flex-basis: auto;
+    margin-bottom: 2rem;
   }
 }
 }
